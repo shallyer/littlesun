@@ -1,0 +1,595 @@
+@charset "utf-8";
+
+/*首页*/
+
+.main{ width:100%; padding-bottom:60px}
+
+.main .section1{ width:100%; background:#f8f8f8; padding:40px 0}
+
+.section1 .contain{ width:1200px; margin:0 auto;}
+
+.section1 .contain .title{ text-align:center; margin-bottom:40px}
+
+.section1 .contain .title a{ display:inline-block; margin:0 3px; padding:0 31px; height:36px; line-height:36px; border:1px solid #adbec8; border-radius:18px; color:#7d8b93; font-size:14px}
+
+.section1 .contain .title a:hover,.section1 .contain .title a.move1{ border:1px solid #f0242f; color:#f0242f}
+
+.section1 .contain .news ul{width:600px; float:left}
+
+.section1 .contain .news .ul1{border-right:1px solid #e2e2e2; width:599px }
+
+.section1 .contain .news .ul1 li{ padding-right:40px}
+
+.section1 .contain .news .ul2 li{ padding-left:40px}
+
+.section1 .contain .news li{ border-bottom:1px solid #e2e2e2; padding-bottom:17px; margin-bottom:20px}
+
+.section1 .contain .news li span{ display:inline; float:left; margin-right:16px}
+
+.section1 .contain .news li .text{ float:right;}
+.section1 .contain .news li .text2{ width:455px}
+
+.contain .news li a .text h2{color:#000; font-size:14px; font-weight:bold}
+
+.contain .news li .text h2{ margin-bottom:4px; height:19px; overflow:hidden}
+
+.contain .news li a .text p{color:#666; font-size:12px; line-height:24px}
+
+.contain .news li .text p{height:48px; overflow:hidden}
+
+.contain .news li.last{ border-bottom:none; padding-bottom:0px; margin-bottom:0px}
+
+.contain .news .more{ width:1200px; text-align:center;padding-top:30px; clear:both}
+
+.contain .news .more a{ display:inline-block; padding:0 31px; height:36px; line-height:36px; border:1px solid #f0242f; border-radius:18px; color:#f0242f; font-size:14px}
+
+.main .section2{ width:100%; background:#fff; padding:40px 0}
+
+.section2 .contain{ width:1200px; margin:0 auto;}
+
+.section2 .contain dl{ float:left; width:254px; text-align:center; margin:0 92px 0 65px}
+
+.section2 .contain dl dd a{color:#999; font-size:12px; line-height:24px}
+
+.section2 .contain dl dd a h3{color:#333; font-size:18px}
+
+.section2 .contain dl dd h3{ margin:16px 0 5px 0}
+
+.section2 .contain dl.dl3{ margin-right:0px}
+
+.main .section3{ width:100%; background:#ebffc9;}
+
+.main .section3 .s3_top{width:100%; background:#8bc03a; text-align:center; padding:33px 0 37px 0}
+
+.main .section3 .s3_top h4{color:#fff; font-size:30px;margin-bottom:2px}
+
+.main .section3 .s3_top span{color:#fff; font-size:14px; display:block}
+
+.main .section3 .s3_down h5{ color:#8bc03a; font-size:24px; margin:31px 0 34px 0}
+
+.main .section3 .s3_down{ text-align:center; padding-bottom:40px}
+
+.main .section3 .s3_down a{ display:inline-block; width:118px; height:36px; border:1px solid #5fb129; color:#5fb129;font-size:12px; text-align:center; line-height:36px; border-radius:18px; margin-top:40px }
+
+.section2 .contain .flow{ text-align:center}
+
+.section2 .contain .flow h3{ color:#2172b6; font-size:30px; margin-bottom:2px}
+
+.section2 .contain .flow span{ color:#999; font-size:14px; display:block}
+
+.contain .flow .step{ background:url("../images/main_77.png") no-repeat center; height:215px; position:relative}
+
+.contain .flow .step li{ position:absolute;color:#666; font-size:14px;}
+
+.flow .step li.one{ left:9px; bottom:-22px}
+
+.flow .step li.two{ left:187px; bottom:64px}
+
+.flow .step li.there{ left:365px; bottom:-22px}
+
+.flow .step li.four{ left:542px; bottom:64px}
+
+.flow .step li.five{ right:362px; bottom:-22px}
+
+.flow .step li.six{ right:184px; bottom:64px}
+
+.flow .step li.seven{right:9px; bottom:-22px}
+
+
+
+/*关于我们*/
+
+.banner2{ width:100%; height:400px}
+
+.contain .content .about{ margin-top:5px; display:none}
+
+.contain .content .about p{line-height:24px;color:#666; font-size:14px; margin-top:48px}
+
+.contain .content .about .img{ text-align:center; padding-top:36px}
+
+
+
+/*全国分布*/
+
+.contain .content .case{ margin-top:50px; padding-bottom:30px}
+
+.contain .content .case ul{ width:1257px}
+
+.contain .content .case li{ float:left; width:362px; margin-right:57px; margin-bottom:42px}
+
+.contain .content .case li a span{ display:block;}
+
+.content .case li h3{ margin:19px 0 10px 0}
+
+.content .case li h3 a{color:#333; font-size:14px;}
+
+.content .case li p a{color:#999; font-size:12px; line-height:24px}
+.place{ padding-bottom:80px}
+.place li{ float:left; margin-right:20px}
+.place li a{ font-size:12px; color:#333; line-height:30px}
+
+/*新闻动态*/
+
+.contain .content .news_list{ margin-top:46px}
+
+.contain .content .news_list li{ border-bottom:1px dashed #e7e7e7; padding-bottom:20px; margin-bottom:20px}
+
+.contain .content .news_list li span{ display:inline-block; float:left; width:220px; margin-right:20px}
+
+.contain .content .news_list li .sub_right{ width:1200px;}
+
+.news_list li .sub_right h3 a{color:#000; font-size:18px;}
+
+.news_list li .sub_right h3{ margin-bottom:10px}
+
+.news_list li .sub_right p{color:#999; font-size:14px; line-height:24px}
+
+.news_list li .sub_right .read{ width:78px; height:24px; line-height:24px; text-align:center; color:#fff; background:#858585; display:inline-block; margin-top:32px; float:left}
+
+.news_list li .sub_right em{ display:inline-block; float:right; margin-top:40px; color:#999}
+
+.contain .content .news_list2{margin-top:50px}
+
+.contain .content .news_list2 li{ border-bottom:1px dashed #e7e7e7;}
+
+.contain .content .news_list2 li a{color:#333; font-size:14px; line-height:40px}
+
+.contain .content .news_list2 li a span{ display:inline-block; float:right;color:#999; font-size:12px;}
+
+.contain .content .news_list2 li a i{ display:inline-block; vertical-align:middle; margin-right:10px}
+
+.contain .content .news_list2 li a:hover,.contain .content .news_list2 li a:hover span{ text-decoration:underline;}
+
+.contain .content .news_list2 li a em{ display:inline-block; vertical-align:middle; margin-top:-3px; margin-left:12px}
+
+.contain .content .news_list3 h2{color:#000; font-size:24px; border-bottom:1px solid #e6e6e6; text-align:center}
+
+.contain .content .news_list3 h2 span{ display:block;color:#999; font-size:12px; margin:11px 0 12px 0}
+
+.contain .content .news_list3 .articl{ margin-top:14px}
+
+.contain .content .news_list3 .articl p{color:#666; font-size:14px; line-height:30px}
+
+.contain .content .news_list3 .articl .picture{ text-align:center; padding:50px 0 70px 0}
+
+.contain .content .news_list3 .articl .text2{ text-indent:35px;}
+
+.contain .content .news_list3 .articl .picture p{ margin-top:33px}
+
+.contain .content .news_list3 .page{ margin-top:59px}
+
+.contain .content .news_list3 .page span{ display:block; font-size:12px; color:#999; line-height:30px}
+
+.contain .content .news_list3 .page span a{font-size:12px; color:#999}
+
+/*申请加盟*/
+
+.contain .content .join{ margin-top:50px}
+
+.contain .content .join h3{color:#f0242f; font-size:24px; margin-bottom:8px;padding-top:37px}
+
+.contain .content .join h3.ls{ color:#0084e0}
+
+.contain .content .join h3.cs{ color:#ff6000}
+
+.contain .content .join h3.hs{ color:#ef0021}
+
+.contain .content .join h3.ls{ color:#458700}
+
+.contain .content .join p{color:#666; font-size:14px; line-height:30px}
+
+/*幼儿园*/
+
+.contain .content .nursery{margin-top:45px}
+
+.contain .content .nursery h3,.contain .content .nursery h4{color:#f0242f; font-size:24px; margin-bottom:26px}
+
+.contain .content .nursery p,.contain .content .nursery span{ line-height:24px; font-size:14px; color:#666;}
+
+.contain .content .nursery p.text2{ text-indent:18px; margin-top:5px}
+
+.contain .content .nursery span{ display:block;margin-left:20px}
+
+.contain .content .nursery span i{ display:inline-block; vertical-align:middle; margin-top:-2px; margin-right:5px}
+
+/*幼儿园2*/
+
+.contain .content .tit2{ text-align:center; margin-top:53px} 
+
+.contain .content .tit2 h2{color:#0084e0; font-size:30px; margin-bottom:2px}
+
+.contain .content .tit2 span{ display:block;color:#999; font-size:14px;}
+
+.contain .content .nav2{ text-align:center; margin-top:38px}
+
+.contain .content .nav2 a{ display:inline-block; border:1px solid #00b7ee; width:118px; text-align:center; height:36px; line-height:36px;color:#0089c7; font-size:14px; border-radius:18px; margin:0 3px}
+
+.contain .content .nav2 a:hover,.contain .content .nav2 a.move2{ background:#00b7ee; color:#fff}
+
+.contain .content .nursery h4{ color:#00a0e9}
+
+.contain .content .nursery .images{ margin-top:65px}
+
+.contain .content .nursery .images span{ display:inline-block; margin-left:0px}
+
+/*分布地图*/
+
+.hide{display:none;}
+
+.hide01{display:block;}
+
+.contain .content .map{ margin-top:40px}
+
+.contain .content .map p{color:#333; font-size:14px; line-height:30px; text-indent:22px}
+
+/*Map相关CSS*/
+
+#chinamap_div{background:url("../images/chinamap.jpg") no-repeat; width:680px; height:517px; position:relative; font-size:12px; margin:0 auto}
+
+#chinamap{position:relative;top:28px;left:28px;}
+
+#chinamap dt{position:absolute; width:70px; height:70px; background:url("../images/chinabg.gif") no-repeat;}
+
+#chinamap dt.xinjiang{ top:43px; left:-43px; width:230px; height:170px;}
+
+#chinamap dt.neimenggu{ top:15px; left:196px;width:270px; height:200px; background-position:-270px 0;}
+
+#chinamap dt.xizang{ top:198px; left:-24px;width:225px; height:145px;background-position:-560px  0;}
+
+#chinamap dt.qinghai{top:178px; left:97px;width:155px; height:105px;background-position:-810px 0;}
+
+#chinamap dt.sichuan{top:254px; left:182px;width:140px; height:110px;background-position:0 -205px;}
+
+#chinamap dt.yunnan{top:318px; left:164px;width:120px; height:115px;background-position:-150px -205px;}
+
+#chinamap dt.gansu{top:140px; left:151px;width:170px; height:150px;background-position:-270px -205px;}
+
+#chinamap dt.heilongjiang{top:6px; left:412px;width:170px; height:150px;background-position:-470px -205px;}
+
+#chinamap dt.jilin{top:94px; left:431px;width:110px; height:70px;background-position:-654px -205px;}
+
+#chinamap dt.liaoning{top:130px; left:413px;width:95px; height:75px;background-position:-790px -205px;}
+
+#chinamap dt.hebei{top:145px; left:337px;width:90px; height:90px;background-position:-882px -205px;}
+
+#chinamap dt.guangxi{top:360px; left:255px;width:100px; height:70px;background-position:0 -399px;}
+
+#chinamap dt.guizhou{top:322px; left:248px;width:80px; height:65px;background-position:-120px -399px;}
+
+#chinamap dt.guangdong{top:368px; left:313px;width:105px; height:75px;background-position:-232px -398px;}
+
+#chinamap dt.hunan{top:306px; left:311px;width:70px; height:80px;background-position:-363px -399px;}
+
+#chinamap dt.jiangxi{ top:308px; left:365px;width:60px; height:80px;background-position:-470px -399px;}
+
+#chinamap dt.fujian{top:330px; left:394px;background-position:-560px -399px;}
+
+#chinamap dt.zhejiang{top:292px; left:420px;background-position:-647px -399px;}
+
+#chinamap dt.chongqing{top:284px; left:278px;background-position:-718px -399px;}
+
+#chinamap dt.hubei{top:269px; left:309px;width:100px; height:70px;background-position:-805px -399px;}
+
+#chinamap dt.ningxia{top:190px; left:264px;width:50px; height:60px;background-position:-935px -399px;}
+
+#chinamap dt.shaanxi{top:188px; left:274px;width:65px; height:105px;background-position:0 -533px;}
+
+#chinamap dt.shanxi{top:174px; left:327px;width:65px; height:105px;background-position:-147px  -535px;}
+
+#chinamap dt.henan{top:230px; left:331px;width:80px; height:70px;background-position:-247px  -535px;}
+
+#chinamap dt.anhui{top:251px; left:379px;background-position:-381px  -535px;}
+
+#chinamap dt.shandong{top:207px; left:378px;background-position:-481px -535px;}
+
+#chinamap dt.jiangsu{top:245px; left:397px;background-position:-590px -535px;}
+
+#chinamap dt.hainan{top:439px; left:294px;background-position:-680px -535px;}
+
+#chinamap dt.taiwan{top:367px; left:436px;background-position:-795px -535px;}
+
+#chinamap dt.beijing{top:169px; left:379px;background-position:-880px -535px;}
+
+#chinamap dt.tianjin{top:198px; left:394px;background-position:-880px -535px;}
+
+#chinamap dt.shanghai{top:284px; left:440px;background-position:-880px -535px;}
+
+
+
+
+
+/* 直辖市 */
+
+#chinamap dd{position:absolute; cursor:pointer;color:#000; width:35px; height:20px; display:block;background:url("../images/chinabg.gif") no-repeat -965px -611px; line-height:20px; text-align:center;}
+
+#chinamap dd.over{background:url("../images/chinaitemover.gif.html")   no-repeat; color:#fff;}
+
+
+
+#beijing{left: 380px;top: 155px;}
+
+#shanghai{left: 449px;top: 281px;}
+
+#tianjin{left: 393px;top: 188px;}
+
+#chongqing{left: 286px;top: 297px;}
+
+
+
+/* 华北区 */
+
+#hebei{left: 355px;top: 188px;}
+
+#shanxi{left: 326px;top: 217px;}
+
+#henan{left: 340px;top: 251px;}
+
+
+
+/* 东北区 */
+
+#liaoning{left: 436px;top: 150px;}
+
+#jilin{left: 461px;top: 113px;}
+
+dd#heilongjiang{top:72px;left:470px;width:46px; background:url("../images/chinabg.gif") no-repeat -954px -579px; }
+
+dd#neimenggu{left: 339px;top: 126px;width:46px; background:url("../images/chinabg.gif") no-repeat -954px -579px;}
+
+
+
+#shandong{left: 399px;top: 221px;}
+
+
+
+/* 华东区  */
+
+#jiangsu{left: 428px;top: 253px;}
+
+#anhui{left: 389px;top: 277px;}
+
+#zhejiang{left: 433px;top: 308px;}
+
+#fujian{left: 405px;top: 347px;}
+
+
+
+/* 华中区 */
+
+#hubei{left: 335px;top: 283px;}
+
+#hunan{left: 324px;top: 334px;}
+
+#jiangxi{left: 372px;top: 329px;}
+
+
+
+/* 华南区 */
+
+#guangdong{left: 345px;top: 382px;}
+
+#guangxi{left: 290px;top: 381px;}
+
+#hainan{left: 309px;top: 441px;}
+
+
+
+/* 西南区 */
+
+#sichuan{left:228px;top:292px; }
+
+#guizhou{left: 274px;top: 344px;}
+
+#yunnan{left: 208px;top: 372px;}
+
+#xizang{left:68px;top:268px; }
+
+#qinghai{left:153px;top:222px; }
+
+
+
+/* 西北区 */
+
+#shaanxi{left: 296px;top: 243px;}
+
+#gansu{left: 212px;top: 185px; }
+
+#ningxia{left: 265px;top: 210px;}
+
+#xinjiang{left:45px;top:138px; }
+
+
+
+/* 台湾区 */
+
+#taiwan{left: 439px;top: 380px;}
+
+
+
+
+
+/* 层 DIV */
+
+#centerlist{background:url("../images/chinacenterbg.jpg")  no-repeat;width:580px; height:480px; padding:0 10px; position:relative; top:32px; left:33px; overflow:hidden;}
+
+#centerlist a.close{position:absolute; color:#FF0000; right:15px; top:40px;}
+
+#centerlist h3{ font-size:14px; font-weight:bold; height:25px; line-height:25px; padding:12px 5px; color:#21639B;}
+
+#centerlist dl{ width:185px; height:auto; float:left; padding-left:5px; padding-bottom:5px;}
+
+#centerlist dl dt{ font-weight:bold; font-size:13px;}
+
+#centerlist dl dd{ height:27px; line-height:27px; overflow:hidden;}
+
+#centerlist dl dd a{ color:#444;}
+
+#centerlist dl dd a:hover{ color:#FF3300;}
+
+
+
+#centerlist ul{margin:0 10px;}
+
+#centerlist li{ float:left; width:50%; line-height:35px; height:35px;overflow: hidden; text-overflow:ellipsis;white-space:nowrap;}
+
+
+
+
+
+/*上海 北京 天津 重庆*/
+
+#centerlist dl.list{width:570px;}
+
+#centerlist dl.list  dd{ width:160px; float:left; margin:0 12px;}
+
+
+
+/*Table*/
+
+#map_table{margin-top:10px;}
+
+#map_table td{ text-align:left; padding:5px 0;}
+
+#map_table td.a{ width:75px; color:#ff6700}
+
+#map_table td.b{ width:260px; color:#1f78cf}
+
+#map_table td.b a{color:#1f78cf}
+
+
+
+#map_page{text-align:center; border-top:1px dotted #ccc; padding-top:10px; margin-top:10px; font-family:Tahoma;}
+
+#map_page a,#map_page span,#map_page strong{padding:0 5px;}
+
+
+
+
+
+.page{font-size:12px; padding-top:25px; padding-bottom:15px; margin:0 auto; margin-top:15px;}
+
+.page span,.page  a{
+
+padding:5px;
+
+border:1px #CCCCCC solid;
+
+margin-right:2px;
+
+cursor:pointer;
+
+}
+
+.page .current{
+
+border:1px #999999 solid;
+
+background:#FFFFCD;
+
+font-weight:bold;
+
+}
+
+.page  a:hover{
+
+border:1px #333333 solid;
+
+background:#FFFFCD;
+
+text-decoration:none;
+
+}
+
+
+
+.detail{padding:15px 10px;}
+
+.detail h1{ color:#2c7d16; text-align:center; font-size:20px;}
+
+.write{ text-align:center; color:#999; border-bottom:solid 1px #ebebeb; margin:5px 0 18px;}
+
+.write span{ color:#666;}
+
+.detail p{ padding:0 14px;line-height:30px;font-size:14px;}
+
+.dow{border-top:solid 1px #ebebeb;padding-top:15px; margin:30px 0; margin-left:10px; }
+
+.dow b{ color:#2c7d16;}
+
+.dow p{ text-indent:0;font-size:12px;}
+
+.info p {line-height:25px;font-size:12px; margin-top:5px; }
+
+.left_side{width:270px; margin-right:30px}
+.left_side .nav_list ul{ border:1px solid #ebebeb; border-bottom:none; border-top:none; }
+.left_side .nav_list h1{ background:#f0242f; height:50px; line-height:50px; text-align:center; color:#fff; font-size:16px; border-radius:5px 5px 0 0}
+.left_side .nav_list li{border-bottom:solid 1px #ebebeb; height:40px; line-height:40px; text-align:left; padding:0 25px }
+.left_side .nav_list li a{font-size:14px; color:#333}
+.right_side{ width:900px}
+.right_side .news_list li{ border-bottom:1px dashed #e7e7e7; padding-bottom:20px; margin-bottom:20px}
+.right_side .news_list li .sub_right{ width:900px; float:right}
+.right_side .news_list li .sub_right h3 a{color:#000; font-size:18px;}
+.right_side .news_list li .sub_right h3{ margin-bottom:10px}
+.right_side .news_list li .sub_right p{color:#999; font-size:14px; line-height:24px}
+
+.ditufenjia{height: 30px;margin-top: 5px;padding: 10px 50px 0 50px;background: url("../images/beijing_11.gif") repeat-x;}
+.dituleft{float:left;width:300px;margin-right:120px;}
+.diturig{float:left;margin-right:10px;width:520px;} 
+.dituleft1p{font-size:15px;color:#0d0d0d;}
+.dituleft2p{font-size:13px;color:#b5b2ae;} 
+.diturig p{font-size:13px;color:#6D6D6D} 
+.baoming{float:right;height:60px;padding-top:30px;}
+
+.QQBox{ position:absolute; top:0; right:0; cursor:default; text-align:center; font:normal 12px/24px airal,simsun; z-index:99999}
+.QTag{ float:left; font:normal 14px/24px "Microsoft Yahei", simhei, simsun; cursor:pointer;}
+.QTag span{ display:block; width:14px; margin:auto;}
+.QTop{ font:14px/24px "Microsoft Yahei", simhei, simsun;}
+.close_1{ position:absolute; height:14px; z-index:9999; color:#000; text-align:right; line-height:14px; text-indent:0; font-size:12px; font-family:simsun; white-space:nowrap; top:-18px; right:3px; text-shadow:none;}
+.QTop span{ display:block;}
+.Qie{ background:url("../images/qq.png") no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="qimg/qq.png"); _background-image:none; display:inline-block; vertical-align:middle; _vertical-align:auto ; margin:0 3px 0 0; width:14px; height:16px;}
+.QBoxTop{ display:none;}
+.QContentTag{ float:left; display:none; cursor:pointer;}
+.QContentTag span{ display:block; width:14px; margin:auto;}
+.telBox{ display:none;}
+.QQBox a:hover{ text-decoration:none;}
+/*----q2----*/
+.q2{ width:36px;}
+.q2 .QTag{ width:36px; height:99px; background:url("../images/q2Tag.png") no-repeat;  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="qimg/q2Tag.png"); _background-image:none; padding:30px 0 0;}
+.q2 .QTag span{ color:#fff; margin:auto; line-height:1.2; text-shadow:0 1px 0 #fd1d01;}
+.q2 .QQContent{ display:none; width:100%;}
+.q2 .QBoxTop{ height:7px; width:100%; background:url("../images/q2Top.png") no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="qimg/q2Top.png");  _background-image:none; display:block; }
+.q2 .QBtm{ height:7px; width:100%; background:url("../images/q2Btm.png") no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="qimg/q2Btm.png");  _background-image:none; }
+.q2 .QBtm span{ display:none;}
+.q2 .QQ{ background: url("../images/q2.gif") repeat-y; width:155px;}
+.q2 .QTop{ background:url("../images/q2.gif") repeat-y ; width:155px;}
+.q2 .QTop span{ text-align:left; padding: 0 0 0 44px; color:#333; width:111px}
+.q2 .QContentTag{ display:block; width:20px; margin:-24px 0 0 9px; background: url("../images/q2Txt.gif") no-repeat; font:normal 14px/1.2 "Microsoft Yahei", simhei, simsun; color:#fff; padding:27px 0 0; height:83px; _display:inline;}
+.q2 .QQ ul{ float:left; width:105px; padding:0 0 0 16px;}
+.q2 .QQ li { border-bottom:1px solid #e5e5e5; padding:3px 0; margin:0 0 5px; white-space:nowrap;}
+.q2 .QQ li a { border:1px solid #e7e7e7; background:#f7f7f7; padding:0 5px; border-radius:5px; line-height:20px; float:right;}
+.q2 .QQ li a:hover{ border-color:#74c7e7; background:#a0e0f9; color:#0f6283; }
+.q2 .QQ li a:hover{text-decoration:none;}
+.q2 .unfold{ width:155px;}
+.q2 .unfold .QTag{ display:none;}
+.q2 .unfold .QQContent{ display:block;}
+.auto{ width:auto;}
